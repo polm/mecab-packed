@@ -1,0 +1,3 @@
+include build.sh
+include sources/mecab.tar.gz
+include sources/unidic.tar.gz
