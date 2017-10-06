@@ -19,6 +19,7 @@ cd ..
 
 # Unpack the prebuilt unidic and put it in the fake root.
 tar xvzf sources/unidic.tar.gz 
+mkdir -p "$mecab_root/lib/mecab/dic/"
 mv unidic-mecab-2.1.2_bin "$mecab_root/lib/mecab/dic/unidic"
 
 # Update the mecabrc to use unidic.
