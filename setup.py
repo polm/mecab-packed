@@ -12,7 +12,7 @@ class Install(_install):
         _install.run(self)
 
 setup(name = 'mecab-packed',
-       version = '0.0.1',
+       version = '0.0.3',
        description = 'Bundled Mecab and Unidic',
        author = 'Paul McCann',
        author_email = 'polm@dampfkraft.com',
